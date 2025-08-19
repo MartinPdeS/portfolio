@@ -73,14 +73,14 @@ I am a **Computational Physicist** specializing in **optical simulations** and *
 **Comprehensive Optical Materials Database**
 
 
-**🎯 Key Features:**
+**Key Features:**
 - Extensive material database (>400 materials)
 - Temperature and wavelength dependencies
 - Advanced interpolation algorithms
 - Built-in visualization capabilities
 
 </td>
-<td width="50%">
+<td width="70%">
 
 #### [LightWave2D](https://github.com/MartinPdeS/LightWave2D)
 **2D Wave Propagation Simulator**

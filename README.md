@@ -55,8 +55,10 @@ I am a **Computational Physicist** specializing in **optical simulations** and *
 **Supermode Analysis for Optical Waveguides**
 
 
-**🎯 Key Features:**
-- Finite element eigenmode solver
+**Key Features:**
+- Finite difference method
+- Eigenmode Expansion method
+- Coupled-mode Theory
 - Adiabatic coupling analysis
 - Complex geometry support
 - Comprehensive visualization tools
@@ -74,13 +76,13 @@ I am a **Computational Physicist** specializing in **optical simulations** and *
 
 
 **Key Features:**
-- Extensive material database (>400 materials)
-- Temperature and wavelength dependencies
-- Advanced interpolation algorithms
+- Local and remote refractive index database
+- Extensive material database
+- Dispersion & GVD computation
 - Built-in visualization capabilities
 
 </td>
-<td width="70%">
+<td width="50%">
 
 #### [LightWave2D](https://github.com/MartinPdeS/LightWave2D)
 **2D Wave Propagation Simulator**
@@ -90,7 +92,7 @@ I am a **Computational Physicist** specializing in **optical simulations** and *
 - FDTD and beam propagation methods
 - Complex structure modeling
 - GPU acceleration support
-- Real-time visualization
+- C++ multi-process backend
 
 </td>
 </tr>
@@ -168,9 +170,9 @@ I am a **Computational Physicist** specializing in **optical simulations** and *
 
 ### Impact Metrics
 - **Open Source Projects**: 15+ actively maintained repositories
-- **Community Reach**: 1000+ users across scientific computing tools
-- **Documentation**: Comprehensive tutorials and API references
-- **Code Quality**: 95%+ test coverage across major projects
+- **Community Reach**: Users across scientific computing tools
+- **Documentation**: Comprehensive tutorials, documentation and API references
+- **Code Quality**: 80%+ test coverage across major projects
 
 ---
 
@@ -252,5 +254,3 @@ portfolio/
 ---
 
 **If you find my work interesting, please consider giving my repositories a star!**
-
-*Last updated: August 2025*

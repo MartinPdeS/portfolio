@@ -1,4 +1,4 @@
-# 👋 Welcome to Martin Poinsinet de Sivry-Houle's Portfolio
+# Welcome to Martin Poinsinet de Sivry-Houle's Portfolio
 
 <div align="center">
 
@@ -19,6 +19,8 @@ I am a **Computational Physicist** specializing in **optical simulations** and *
 - **Electromagnetic Simulations**: Advanced modeling of light-matter interactions
 - **Mie Theory**: Deep expertise in scattering theory and implementation
 - **Finite Element Methods**: Complex waveguide and supermode analysis
+- **Finit Difference Time Domain [FDTD]**: Complex geometries.
+- **EigenMode Expansion + Coupled-Mode Theory [EME]**: Solving mode propagation in waveguides.
 - **Scientific Software Development**: High-performance computing solutions
 - **GUI Development**: User-friendly interfaces for complex scientific tools
 
@@ -36,24 +38,11 @@ I am a **Computational Physicist** specializing in **optical simulations** and *
 <tr>
 <td width="50%">
 
-#### 🔬 [PyMieSim](https://github.com/MartinPdeS/PyMieSim)
+#### [PyMieSim](https://github.com/MartinPdeS/PyMieSim)
 **Advanced Mie Scattering Simulation Framework**
 
-```python
-# Elegant API for complex scattering calculations
-from PyMieSim.experiment import Setup
-from PyMieSim.experiment.source import Gaussian
-from PyMieSim.experiment.scatterer import Sphere
 
-setup = Setup(
-    source=Gaussian(wavelength=632.8),
-    scatterer=Sphere(diameter=1000),
-    detector=Photodiode()
-)
-data = setup.get('Qsca')  # Scattering efficiency
-```
-
-**🎯 Key Features:**
+**Key Features:**
 - High-performance C++ backend with Python interface
 - Interactive GUI for parameter exploration
 - Comprehensive measurement capabilities
@@ -65,17 +54,6 @@ data = setup.get('Qsca')  # Scattering efficiency
 #### [SuPyMode](https://github.com/MartinPdeS/SuPyMode)
 **Supermode Analysis for Optical Waveguides**
 
-```python
-# Sophisticated waveguide mode analysis
-from SuPyMode import FiberFactory, SuperMode
-
-fiber = FiberFactory.load_from_catalog()
-solver = SuperMode(fiber)
-solver.compute_modes()
-
-# Advanced coupling analysis
-coupling = solver.get_coupling_matrix()
-```
 
 **🎯 Key Features:**
 - Finite element eigenmode solver
@@ -94,18 +72,6 @@ coupling = solver.get_coupling_matrix()
 #### [PyOptik](https://github.com/MartinPdeS/PyOptik)
 **Comprehensive Optical Materials Database**
 
-```python
-# Extensive refractive index database
-from PyOptik import Material
-
-glass = Material.BK7
-n_index = glass.get_refractive_index(wavelength=550)
-
-# Temperature-dependent properties
-n_temp = glass.get_refractive_index(
-    wavelength=633, temperature=300
-)
-```
 
 **🎯 Key Features:**
 - Extensive material database (>400 materials)
@@ -119,18 +85,6 @@ n_temp = glass.get_refractive_index(
 #### [LightWave2D](https://github.com/MartinPdeS/LightWave2D)
 **2D Wave Propagation Simulator**
 
-```python
-# Advanced electromagnetic wave simulation
-from LightWave2D import Simulator, Gaussian
-
-sim = Simulator(resolution=1024)
-beam = Gaussian(waist=50e-6, wavelength=1550e-9)
-
-# Complex propagation scenarios
-field = sim.propagate_through_medium(
-    beam, medium=custom_structure
-)
-```
 
 **Key Features:**
 - FDTD and beam propagation methods
@@ -269,8 +223,8 @@ field = sim.propagate_through_medium(
 
 [![GitHub](https://img.shields.io/badge/GitHub-MartinPdeS-181717?style=for-the-badge&logo=github)](https://github.com/MartinPdeS)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@domain.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-Follow-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://researchgate.net/profile/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/martin-poinsinet-de-sivry-houle-603b3b98/)
+[![ResearchGate](https://img.shields.io/badge/ResearchGate-Follow-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Martin-Sivry-Houle)
 
 </div>
 

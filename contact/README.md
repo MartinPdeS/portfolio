@@ -37,9 +37,9 @@ I specialize in developing high-performance scientific computing solutions at th
 
 ---
 
-## 💼 Technical Expertise
+## Technical Expertise
 
-### 🔧 Core Technologies
+### Core Technologies
 
 <div align="center">
 
@@ -63,14 +63,14 @@ I specialize in developing high-performance scientific computing solutions at th
 
 ---
 
-## 📚 Education & Research
+## Education & Research
 
 ### 🎓 Academic Background
 - **Ph.D. in Physics** (In Progress): Computational electromagnetics and optical simulations
 - **M.Sc. in Physics**: Specialized in theoretical and computational optics
 - **B.Sc. in Physics**: Strong foundation in mathematics and physical sciences
 
-### 📝 Selected Publications & Presentations
+### Selected Publications & Presentations
 1. **"High-Performance Mie Scattering Simulations for Atmospheric Applications"** - Journal of Computational Physics (2024)
 2. **"Supermode Analysis of Optical Waveguides: A Computational Approach"** - Optics Express (2023)
 3. **"Open Source Tools for Electromagnetic Simulations"** - SciPy Conference (2023)
@@ -78,9 +78,9 @@ I specialize in developing high-performance scientific computing solutions at th
 
 ---
 
-## 🌟 Project Portfolio
+## Project Portfolio
 
-### 🚀 Major Contributions
+### Major Contributions
 
 #### **PyMieSim** - Electromagnetic Scattering Framework
 - **Role**: Lead Developer & Architect
@@ -105,15 +105,15 @@ I specialize in developing high-performance scientific computing solutions at th
 
 ---
 
-## 🎯 Professional Services
+## Professional Services
 
-### 🤝 Community Involvement
+### Community Involvement
 - **Open Source Maintainer**: Active development and community support
 - **Technical Reviewer**: Peer review for scientific computing journals
 - **Conference Speaker**: Presentations at international physics conferences
 - **Mentorship**: Guidance for students and early-career researchers
 
-### 💡 Consulting Services
+### Consulting Services
 - **Scientific Software Development**: Custom solutions for research problems
 - **Performance Optimization**: High-performance computing consulting
 - **Technical Training**: Workshops on scientific computing best practices
@@ -125,21 +125,21 @@ I specialize in developing high-performance scientific computing solutions at th
 
 <div align="center">
 
-### 💬 Let's discuss your project or collaboration ideas!
+### Let's discuss your project or collaboration ideas!
 
 </div>
 
-### 📧 Primary Contact
+### Primary Contact
 **Email**: [martin.poinsinet.de.sivry@gmail.com](mailto:martin.poinsinet.de.sivry@gmail.com)
 **Response Time**: Within 24 hours for professional inquiries
 
-### 🌐 Professional Profiles
+### Professional Profiles
 - **GitHub**: [@MartinPdeS](https://github.com/MartinPdeS) - View my code and contributions
 - **LinkedIn**: [Connect with me professionally](https://linkedin.com/in/martin-poinsinet-de-sivry-houle)
 - **ResearchGate**: [Academic publications and research](https://researchgate.net/profile/martin-poinsinet-de-sivry-houle)
 - **ORCID**: [Academic identifier and publications](https://orcid.org/0000-0000-0000-0000)
 
-### 💼 Collaboration Interests
+### Collaboration Interests
 - **Research Partnerships**: Joint projects in computational physics
 - **Open Source Development**: Contributing to scientific computing ecosystem
 - **Educational Content**: Tutorials, workshops, and documentation
@@ -147,15 +147,15 @@ I specialize in developing high-performance scientific computing solutions at th
 
 ---
 
-## 📄 Professional Documents
+## Professional Documents
 
-### 📋 Available Resources
+### Available Resources
 - **[Complete CV/Resume](./resume.pdf)**: Comprehensive professional background
 - **[Research Statement](./research-statement.pdf)**: Academic research interests and goals
 - **[Project Portfolio](./project-portfolio.pdf)**: Detailed technical achievements
 - **[Code Samples](../examples/)**: Representative code examples and documentation
 
-### 🏆 References
+### References
 Professional references available upon request for:
 - Academic positions and research collaborations
 - Technical consulting and software development projects
@@ -165,7 +165,7 @@ Professional references available upon request for:
 
 <div align="center">
 
-### 🚀 Ready to build something amazing together?
+### Ready to build something amazing together?
 
 [![Email Me](https://img.shields.io/badge/Email-Let's_Talk-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:martin.poinsinet.de.sivry@gmail.com)
 [![Schedule Meeting](https://img.shields.io/badge/Calendar-Schedule_Meeting-4285F4?style=for-the-badge&logo=google-calendar&logoColor=white)](https://calendly.com/martin-poinsinet)

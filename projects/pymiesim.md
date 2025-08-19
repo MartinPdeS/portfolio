@@ -11,31 +11,31 @@
 
 </div>
 
-## 🎯 Project Overview
+## Project Overview
 
 **PyMieSim** is a comprehensive Python library for simulating electromagnetic scattering from spherical and cylindrical particles using Mie theory. It combines the computational power of C++ with the accessibility of Python to provide high-performance scattering simulations for researchers, engineers, and students in optics, atmospheric physics, and materials science.
 
-## ✨ Key Features
+## Key Features
 
-### 🚀 High Performance
+### High Performance
 - **C++ Backend**: Optimized computational core for maximum speed
 - **Parallel Processing**: Multi-threaded calculations for parameter sweeps
 - **Memory Efficient**: Smart memory management for large datasets
 - **Vectorized Operations**: NumPy integration for array operations
 
-### 🎨 User-Friendly Interface
+### User-Friendly Interface
 - **Intuitive API**: Clean, Pythonic interface design
 - **Interactive GUI**: Dash-based web interface for parameter exploration
 - **Comprehensive Documentation**: Detailed tutorials and examples
 - **Jupyter Integration**: Perfect for research notebooks
 
-### 🔬 Scientific Capabilities
+### Scientific Capabilities
 - **Mie Theory Implementation**: Exact electromagnetic scattering solutions
 - **Multiple Geometries**: Spheres, cylinders, and core-shell particles
 - **Broad Parameter Space**: Wavelength, size, and material property sweeps
 - **Comprehensive Measurements**: Efficiency factors, cross-sections, phase functions
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 ```mermaid
 graph TB
@@ -44,17 +44,17 @@ graph TB
     C --> D[Mie Theory Algorithms]
     C --> E[Bessel Functions]
     C --> F[Complex Math Operations]
-    
+
     A --> G[GUI Interface]
     A --> H[Visualization Tools]
     A --> I[Data Processing]
-    
+
     style A fill:#3776AB,stroke:#fff,color:#fff
     style C fill:#00599C,stroke:#fff,color:#fff
     style G fill:#FF6B6B,stroke:#fff,color:#fff
 ```
 
-## 📊 Usage Examples
+## Usage Examples
 
 ### Basic Scattering Calculation
 
@@ -123,24 +123,24 @@ gui = OpticalSetupGUI()
 gui.run_server(port=8050, debug=True)
 ```
 
-## 🎯 Real-World Applications
+## Real-World Applications
 
-### 🌍 Atmospheric Physics
+### Atmospheric Physics
 - **Aerosol Characterization**: Size distribution analysis from scattering measurements
 - **Climate Modeling**: Radiative forcing calculations for atmospheric particles
 - **Remote Sensing**: Lidar and satellite data interpretation
 
-### 🔬 Materials Science
+### Materials Science
 - **Nanoparticle Characterization**: Optical properties of engineered nanoparticles
 - **Colloidal Systems**: Stability and interaction studies
 - **Plasmonics**: Enhanced scattering from metallic nanoparticles
 
-### 🏭 Industrial Applications
+### Industrial Applications
 - **Particle Size Analysis**: Quality control in manufacturing processes
 - **Optical Sensor Design**: Optimization of detection systems
 - **Biomedical Diagnostics**: Flow cytometry and cell analysis
 
-## 📈 Performance Benchmarks
+## Performance Benchmarks
 
 <div align="center">
 
@@ -153,7 +153,7 @@ gui.run_server(port=8050, debug=True)
 
 </div>
 
-## 🚀 Advanced Features
+## Advanced Features
 
 ### Multi-Threading Support
 ```python
@@ -184,7 +184,7 @@ detector = CoherentMode(
 )
 ```
 
-## 🎨 Visualization Capabilities
+## Visualization Capabilities
 
 The library includes comprehensive visualization tools for analyzing scattering data:
 
@@ -209,7 +209,7 @@ data.plot.phase_function(
 )
 ```
 
-## 🏆 Impact & Recognition
+## Impact & Recognition
 
 ### Academic Citations
 - **50+ Publications**: Used in peer-reviewed research worldwide
@@ -222,7 +222,7 @@ data.plot.phase_function(
 - **Active Contributors**: Growing developer community
 - **Comprehensive Testing**: 95%+ code coverage
 
-## 🔮 Future Roadmap
+## Future Roadmap
 
 ### Planned Features
 - **GPU Acceleration**: CUDA support for massive parallelization
@@ -236,7 +236,7 @@ data.plot.phase_function(
 - **v2.0**: Multi-threading and advanced detectors
 - **v1.0**: Initial release with basic Mie theory
 
-## 📚 Learning Resources
+## Learning Resources
 
 ### Documentation
 - [**API Reference**](https://pymiesim.readthedocs.io/api/): Comprehensive function documentation
@@ -252,7 +252,7 @@ data.plot.phase_function(
 
 <div align="center">
 
-### 🌟 Want to contribute or learn more?
+### Want to contribute or learn more?
 
 [![GitHub](https://img.shields.io/badge/GitHub-View_Source-181717?style=for-the-badge&logo=github)](https://github.com/MartinPdeS/PyMieSim)
 [![Documentation](https://img.shields.io/badge/Docs-Read_More-blue?style=for-the-badge&logo=read-the-docs)](https://pymiesim.readthedocs.io/)

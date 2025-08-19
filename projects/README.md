@@ -1,8 +1,8 @@
-# 🎯 Featured Projects
+# Featured Projects
 
 This directory contains detailed showcases of my major open-source contributions to computational physics and scientific computing.
 
-## 🌟 Core Scientific Libraries
+## Core Scientific Libraries
 
 ### [PyMieSim](./pymiesim.md) - Advanced Mie Scattering Framework
 High-performance electromagnetic scattering simulation with intuitive Python API and C++ backend.
@@ -22,7 +22,7 @@ Flexible finite difference operator generation for scientific computing applicat
 ### [FlowCyPy](./flowcypy.md) - Flow Cytometry Analysis
 Comprehensive toolkit for flow cytometry data processing and analysis.
 
-## 🔧 Specialized Tools
+## Specialized Tools
 
 ### [DeepPeak](./deeppeak.md) - AI Peak Detection
 Machine learning-based peak detection and analysis for scientific datasets.
@@ -33,7 +33,7 @@ Specialized tool for modeling optical fiber fusion and coupling processes.
 ### [TradeTide](./tradetide.md) - Financial Analysis
 Quantitative trading and financial analysis framework.
 
-## 📊 Visualization & GUI Tools
+## Visualization & GUI Tools
 
 ### [MPSPlots](./mpsplots.md) - Scientific Plotting
 Enhanced matplotlib wrapper for publication-quality scientific figures.

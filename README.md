@@ -13,7 +13,8 @@
 
 ## About Me
 
-I am a **Computational Physicist** specializing in **optical simulations** and **scientific computing**. My passion lies in developing cutting-edge tools and algorithms that bridge the gap between theoretical physics and practical applications in photonics and electromagnetic modeling.
+I am a **Computational Physicist** specializing in **optical simulations** and **scientific computing**.
+My passion lies in developing cutting-edge tools and algorithms that bridge the gap between theoretical physics and practical applications in photonics and electromagnetic modeling.
 
 ### Core Expertise
 - **Electromagnetic Simulations**: Advanced modeling of light-matter interactions

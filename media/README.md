@@ -1,4 +1,4 @@
-# 🎥 Media Showcase
+# Media Showcase
 
 <div align="center">
 
@@ -8,15 +8,15 @@
 
 This directory contains visual demonstrations, screenshots, videos, and interactive demos showcasing the capabilities of various projects and tools.
 
-## 📸 Screenshots Gallery
+## Screenshots Gallery
 
-### 🔬 PyMieSim Interface Screenshots
+### PyMieSim Interface Screenshots
 
 #### Main GUI Interface
 ![PyMieSim GUI](./screenshots/pymiesim_gui_main.png)
 *Interactive parameter exploration interface with real-time plotting*
 
-#### Advanced Parameter Sweeps  
+#### Advanced Parameter Sweeps
 ![Parameter Sweeps](./screenshots/pymiesim_parameter_sweeps.png)
 *Multi-dimensional parameter space visualization*
 
@@ -24,7 +24,7 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 ![Results Visualization](./screenshots/pymiesim_results.png)
 *Comprehensive scattering data analysis and plotting*
 
-### 🌊 SuPyMode Visualizations
+### SuPyMode Visualizations
 
 #### Mode Field Distributions
 ![Mode Fields](./screenshots/supymode_mode_fields.png)
@@ -38,7 +38,7 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 ![3D Visualization](./screenshots/supymode_3d_fiber.png)
 *Three-dimensional fiber structure and refractive index profile*
 
-### 🚀 PyOptik Material Database
+### PyOptik Material Database
 
 #### Material Browser Interface
 ![Material Browser](./screenshots/pyoptik_browser.png)
@@ -54,12 +54,12 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 
 ---
 
-## 🎬 Video Demonstrations
+## Video Demonstrations
 
-### 🔄 Interactive Demos
+### Interactive Demos
 
 #### [PyMieSim Live Demo](./videos/pymiesim_live_demo.mp4)
-**Duration**: 5 minutes  
+**Duration**: 5 minutes
 **Content**: Real-time parameter manipulation and immediate visual feedback
 ```
 - Parameter adjustment demonstration
@@ -69,7 +69,7 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 ```
 
 #### [SuPyMode Calculation Workflow](./videos/supymode_workflow.mp4)
-**Duration**: 8 minutes  
+**Duration**: 8 minutes
 **Content**: Complete mode analysis workflow from setup to results
 ```
 - Fiber structure definition
@@ -79,7 +79,7 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 ```
 
 #### [Multi-Library Integration](./videos/multi_library_integration.mp4)
-**Duration**: 10 minutes  
+**Duration**: 10 minutes
 **Content**: Using multiple libraries together for complex simulations
 ```
 - PyOptik material selection
@@ -88,10 +88,10 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 - Combined workflow demonstration
 ```
 
-### 📊 Result Presentations
+### Result Presentations
 
 #### [Scientific Results Showcase](./videos/scientific_results.mp4)
-**Duration**: 12 minutes  
+**Duration**: 12 minutes
 **Content**: High-quality scientific visualizations and analysis
 ```
 - Publication-quality figure generation
@@ -102,16 +102,16 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 
 ---
 
-## 🖼️ Infographics & Diagrams
+## Infographics & Diagrams
 
-### 📐 Technical Architecture Diagrams
+### Technical Architecture Diagrams
 
 #### System Architecture Overview
 ![System Architecture](./diagrams/system_architecture.svg)
 *High-level view of library interactions and data flow*
 
 #### Algorithm Flow Charts
-![Algorithm Flowcharts](./diagrams/algorithm_flowcharts.svg)  
+![Algorithm Flowcharts](./diagrams/algorithm_flowcharts.svg)
 *Detailed computational workflow visualizations*
 
 #### Performance Benchmarks
@@ -134,20 +134,20 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 
 ---
 
-## 🎯 Interactive Demonstrations
+## Interactive Demonstrations
 
-### 🌐 Web-Based Demos
+### Web-Based Demos
 
 #### [Live PyMieSim Demo](https://mybinder.org/v2/gh/MartinPdeS/PyMieSim/main?labpath=examples%2Finteractive_demo.ipynb)
-**Platform**: Binder (Jupyter Notebook)  
-**Features**: 
+**Platform**: Binder (Jupyter Notebook)
+**Features**:
 - Parameter sliders for real-time interaction
 - Immediate visual feedback
 - No installation required
 - Educational annotations
 
 #### [SuPyMode Explorer](https://martinpdes.github.io/SuPyMode/interactive/)
-**Platform**: Web Application  
+**Platform**: Web Application
 **Features**:
 - Fiber parameter adjustment
 - Real-time mode calculation
@@ -155,7 +155,7 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 - Export capabilities
 
 #### [Material Property Explorer](https://martinpdes.github.io/PyOptik/explorer/)
-**Platform**: Interactive Dashboard  
+**Platform**: Interactive Dashboard
 **Features**:
 - Material database browsing
 - Property comparison tools
@@ -164,9 +164,9 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 
 ---
 
-## 📱 Mobile & Responsive Interfaces
+## Mobile & Responsive Interfaces
 
-### 📲 Mobile-Optimized Views
+### Mobile-Optimized Views
 
 #### Responsive GUI Screenshots
 ![Mobile Interface](./screenshots/mobile_interfaces.png)
@@ -178,9 +178,9 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 
 ---
 
-## 🎨 Publication-Quality Figures
+## Publication-Quality Figures
 
-### 📊 Journal-Ready Visualizations
+### Journal-Ready Visualizations
 
 #### High-Resolution Scientific Plots
 ![Scientific Plots](./figures/publication_quality/)
@@ -202,9 +202,9 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 
 ---
 
-## 🔧 Development Screenshots
+## Development Screenshots
 
-### 💻 Development Environment
+### Development Environment
 
 #### IDE Setup and Configuration
 ![Development Setup](./screenshots/development_setup.png)
@@ -220,9 +220,9 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 
 ---
 
-## 📈 Analytics & Metrics Visualizations
+## Analytics & Metrics Visualizations
 
-### 📊 Usage Statistics
+### Usage Statistics
 
 #### Download Statistics
 ![Download Stats](./analytics/download_statistics.png)
@@ -238,9 +238,9 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 
 ---
 
-## 🎪 Conference & Presentation Materials
+## Conference & Presentation Materials
 
-### 🎤 Presentation Slides
+### Presentation Slides
 
 #### Conference Presentations
 ![Conference Slides](./presentations/conference_slides/)
@@ -262,28 +262,28 @@ This directory contains visual demonstrations, screenshots, videos, and interact
 
 ---
 
-## 🗂️ File Organization
+## File Organization
 
 ```
 media/
-├── 📸 screenshots/           # Application screenshots
-├── 🎬 videos/               # Demonstration videos
-├── 🖼️ diagrams/             # Technical diagrams
-├── 🎨 illustrations/        # Scientific illustrations
-├── 📊 figures/              # Publication figures
-├── 📱 mobile/               # Mobile interface captures
-├── 🔧 development/          # Development screenshots
-├── 📈 analytics/            # Usage statistics
-├── 🎤 presentations/        # Conference materials
-├── 🎯 interactive/          # Interactive demo assets
-└── 📋 templates/            # Reusable templates
+├── screenshots/           # Application screenshots
+├── videos/               # Demonstration videos
+├── diagrams/             # Technical diagrams
+├── illustrations/        # Scientific illustrations
+├── figures/              # Publication figures
+├── mobile/               # Mobile interface captures
+├── development/          # Development screenshots
+├── analytics/            # Usage statistics
+├── presentations/        # Conference materials
+├── interactive/          # Interactive demo assets
+└── templates/            # Reusable templates
 ```
 
 ---
 
 <div align="center">
 
-### 🌟 Explore the Visual Journey
+### Explore the Visual Journey
 
 [![View Gallery](https://img.shields.io/badge/Gallery-Browse_Screenshots-blue?style=for-the-badge&logo=image)](./screenshots/)
 [![Watch Demos](https://img.shields.io/badge/Videos-Watch_Demos-red?style=for-the-badge&logo=youtube)](./videos/)

@@ -1,4 +1,4 @@
-# 📫 Contact & Professional Information
+# Contact & Professional Information
 
 <div align="center">
 
@@ -6,30 +6,30 @@
 
 </div>
 
-## 👨‍💻 About Martin Poinsinet de Sivry-Houle
+## About Martin Poinsinet de Sivry-Houle
 
-### 🎓 Professional Background
+### Professional Background
 **Computational Physicist & Scientific Software Developer**
 
 I specialize in developing high-performance scientific computing solutions at the intersection of physics, mathematics, and software engineering. My work focuses on electromagnetic simulations, optical modeling, and creating accessible tools that enable researchers to tackle complex scientific problems.
 
-### 🔬 Research Interests
+### Research Interests
 - **Computational Electromagnetics**: Advanced algorithms for scattering and wave propagation
-- **Optical Simulations**: Mie theory, supermode analysis, and waveguide modeling  
+- **Optical Simulations**: Mie theory, supermode analysis, and waveguide modeling
 - **Scientific Computing**: High-performance computing and numerical methods
 - **Open Source Development**: Building accessible tools for the scientific community
 
 ---
 
-## 🏆 Professional Highlights
+## Professional Highlights
 
-### 🎯 Technical Achievements
+### Technical Achievements
 - **15+ Open Source Libraries**: Created and maintain comprehensive scientific computing ecosystem
 - **1000+ Users Worldwide**: Tools used across academic and industrial research
 - **High-Performance Solutions**: C++/Python hybrid architectures for computational efficiency
 - **Community Leadership**: Active contributor to scientific computing best practices
 
-### 📊 Impact Metrics
+### Impact Metrics
 - **50+ Academic Citations**: Research tools used in peer-reviewed publications
 - **10k+ Downloads Monthly**: Widespread adoption of software libraries
 - **95%+ Test Coverage**: Commitment to software quality and reliability
@@ -87,7 +87,7 @@ I specialize in developing high-performance scientific computing solutions at th
 - **Impact**: 1000+ users, 50+ citations, industry adoption
 - **Technologies**: Python, C++, pybind11, Dash
 
-#### **SuPyMode** - Waveguide Analysis Suite  
+#### **SuPyMode** - Waveguide Analysis Suite
 - **Role**: Principal Investigator & Developer
 - **Impact**: Novel algorithms for adiabatic coupling analysis
 - **Technologies**: C++, Eigen, finite element methods
@@ -130,7 +130,7 @@ I specialize in developing high-performance scientific computing solutions at th
 </div>
 
 ### 📧 Primary Contact
-**Email**: [martin.poinsinet.de.sivry@gmail.com](mailto:martin.poinsinet.de.sivry@gmail.com)  
+**Email**: [martin.poinsinet.de.sivry@gmail.com](mailto:martin.poinsinet.de.sivry@gmail.com)
 **Response Time**: Within 24 hours for professional inquiries
 
 ### 🌐 Professional Profiles

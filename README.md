@@ -11,24 +11,24 @@
 
 </div>
 
-## 🚀 About Me
+## About Me
 
 I am a **Computational Physicist** specializing in **optical simulations** and **scientific computing**. My passion lies in developing cutting-edge tools and algorithms that bridge the gap between theoretical physics and practical applications in photonics and electromagnetic modeling.
 
-### 🔬 Core Expertise
+### Core Expertise
 - **Electromagnetic Simulations**: Advanced modeling of light-matter interactions
 - **Mie Theory**: Deep expertise in scattering theory and implementation
-- **Finite Element Methods**: Complex waveguide and supermode analysis  
+- **Finite Element Methods**: Complex waveguide and supermode analysis
 - **Scientific Software Development**: High-performance computing solutions
 - **GUI Development**: User-friendly interfaces for complex scientific tools
 
 ---
 
-## 🎯 Featured Projects
+## Featured Projects
 
 <div align="center">
 
-### 🌟 Major Scientific Computing Libraries
+### Major Scientific Computing Libraries
 
 </div>
 
@@ -54,15 +54,15 @@ data = setup.get('Qsca')  # Scattering efficiency
 ```
 
 **🎯 Key Features:**
-- ⚡ High-performance C++ backend with Python interface
-- 🎨 Interactive GUI for parameter exploration
-- 📊 Comprehensive measurement capabilities
-- 🔧 Extensible architecture for custom experiments
+- High-performance C++ backend with Python interface
+- Interactive GUI for parameter exploration
+- Comprehensive measurement capabilities
+- Extensible architecture for custom experiments
 
 </td>
 <td width="50%">
 
-#### 🌊 [SuPyMode](https://github.com/MartinPdeS/SuPyMode)
+#### [SuPyMode](https://github.com/MartinPdeS/SuPyMode)
 **Supermode Analysis for Optical Waveguides**
 
 ```python
@@ -78,10 +78,10 @@ coupling = solver.get_coupling_matrix()
 ```
 
 **🎯 Key Features:**
-- 🧮 Finite element eigenmode solver
-- 🔗 Adiabatic coupling analysis
-- 📐 Complex geometry support
-- 📈 Comprehensive visualization tools
+- Finite element eigenmode solver
+- Adiabatic coupling analysis
+- Complex geometry support
+- Comprehensive visualization tools
 
 </td>
 </tr>
@@ -91,7 +91,7 @@ coupling = solver.get_coupling_matrix()
 <tr>
 <td width="50%">
 
-#### 🚀 [PyOptik](https://github.com/MartinPdeS/PyOptik)
+#### [PyOptik](https://github.com/MartinPdeS/PyOptik)
 **Comprehensive Optical Materials Database**
 
 ```python
@@ -108,15 +108,15 @@ n_temp = glass.get_refractive_index(
 ```
 
 **🎯 Key Features:**
-- 📚 Extensive material database (>400 materials)
-- 🌡️ Temperature and wavelength dependencies
-- 🔍 Advanced interpolation algorithms
-- 📊 Built-in visualization capabilities
+- Extensive material database (>400 materials)
+- Temperature and wavelength dependencies
+- Advanced interpolation algorithms
+- Built-in visualization capabilities
 
 </td>
 <td width="50%">
 
-#### 🌐 [LightWave2D](https://github.com/MartinPdeS/LightWave2D)
+#### [LightWave2D](https://github.com/MartinPdeS/LightWave2D)
 **2D Wave Propagation Simulator**
 
 ```python
@@ -132,11 +132,11 @@ field = sim.propagate_through_medium(
 )
 ```
 
-**🎯 Key Features:**
-- 🌊 FDTD and beam propagation methods
-- 🏗️ Complex structure modeling
-- ⚡ GPU acceleration support
-- 📹 Real-time visualization
+**Key Features:**
+- FDTD and beam propagation methods
+- Complex structure modeling
+- GPU acceleration support
+- Real-time visualization
 
 </td>
 </tr>
@@ -144,7 +144,7 @@ field = sim.propagate_through_medium(
 
 ---
 
-## 📊 Technical Skills & Tools
+## Technical Skills & Tools
 
 <div align="center">
 
@@ -179,7 +179,7 @@ field = sim.propagate_through_medium(
 
 ---
 
-## 📈 GitHub Statistics
+## GitHub Statistics
 
 <div align="center">
 
@@ -204,15 +204,15 @@ field = sim.propagate_through_medium(
 
 ---
 
-## 🏆 Research & Publications
+## Research & Publications
 
-### 📚 Academic Contributions
+### Academic Contributions
 - **Computational Electromagnetics**: Advanced algorithms for scattering simulations
-- **Optical Waveguide Theory**: Supermode analysis and coupling dynamics  
+- **Optical Waveguide Theory**: Supermode analysis and coupling dynamics
 - **High-Performance Computing**: Parallel algorithms for electromagnetic modeling
 - **Scientific Software Engineering**: Best practices for research software development
 
-### 🎯 Impact Metrics
+### Impact Metrics
 - **Open Source Projects**: 15+ actively maintained repositories
 - **Community Reach**: 1000+ users across scientific computing tools
 - **Documentation**: Comprehensive tutorials and API references
@@ -220,7 +220,7 @@ field = sim.propagate_through_medium(
 
 ---
 
-## 🌟 What Makes My Work Special
+## What Makes My Work Special
 
 <div align="center">
 
@@ -228,7 +228,7 @@ field = sim.propagate_through_medium(
 <tr>
 <td width="33%" align="center">
 
-### 🔬 Scientific Rigor
+### Scientific Rigor
 **Theory-Driven Development**
 - Deep physics understanding
 - Mathematically sound algorithms
@@ -248,7 +248,7 @@ field = sim.propagate_through_medium(
 </td>
 <td width="33%" align="center">
 
-### 🎨 User Experience
+### User Experience
 **Accessible Complex Science**
 - Intuitive Python APIs
 - Interactive GUI interfaces
@@ -278,25 +278,25 @@ field = sim.propagate_through_medium(
 
 <div align="center">
 
-### 💡 "Bridging the gap between theoretical physics and practical applications through elegant code"
+### "Bridging the gap between theoretical physics and practical applications through elegant code"
 
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer)
 
 </div>
 
-## 📄 Repository Structure
+## Repository Structure
 
 ```
 portfolio/
-├── 📁 projects/          # Detailed project showcases
-├── 📁 research/          # Academic papers and presentations  
-├── 📁 tutorials/         # Educational content and guides
-├── 📁 media/            # Screenshots, videos, demos
-└── 📁 contact/          # Contact information and CV
+├── projects/          # Detailed project showcases
+├── research/          # Academic papers and presentations
+├── tutorials/         # Educational content and guides
+├── media/            # Screenshots, videos, demos
+└── contact/          # Contact information and CV
 ```
 
 ---
 
-**⭐ If you find my work interesting, please consider giving my repositories a star!**
+**If you find my work interesting, please consider giving my repositories a star!**
 
 *Last updated: August 2025*

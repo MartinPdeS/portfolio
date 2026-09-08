@@ -33,3 +33,20 @@ The README is the primary portfolio, intended to present Martin and his work dir
 ## Public CV
 
 At Martin’s explicit request, `../CV/CV.pdf` is included unchanged as `assets/Martin-Poinsinet-de-Sivry-Houle-CV.pdf` and linked from the portfolio. This is a snapshot of the existing PDF, not a rebuild of the LaTeX sources.
+
+## Verified software publications
+
+Verified against the local CV and online records:
+
+- **SuPyMode (2024):** author order, title, journal, volume, issue, pages, and DOI confirmed by [Polytechnique Montréal’s institutional record](https://publications.polymtl.ca/58531/). DOI: `10.1364/OPTCON.513562`.
+- **PyMieSim (2023):** author order, title, journal, volume, issue, pages, and DOI confirmed by [the project’s official citation](https://martinpdes.github.io/PyMieSim/docs/latest/index.html) and [Polytechnique Montréal’s author bibliography](https://publications.polymtl.ca/view/person/Poinsinet_De_Sivry-Houle%2C_Martin.date.html). DOI: `10.1364/OPTCON.473102`.
+- Article summaries reflect the publisher article text accessible through its ResearchGate full-text copies. Publisher landing pages resolve but did not expose readable text in the browser tool.
+- **PackLab and FlowCyPy:** “publications coming soon” is Martin’s stated status. Do not infer a journal, publication date, acceptance, or DOI.
+
+Publication titles and coauthor spellings follow the bibliographic records. Martin’s displayed name follows his stated capitalization.
+
+## Professional direction and contributions
+
+Positioning emphasizes scientific software engineering and computational optics, grounded in the CV’s scientific software, algorithm engineering, photonics, and biomedical optics experience. The portfolio expresses interest in relevant roles and collaborations without claiming an employment transition or availability date.
+
+Project showcases distinguish the scientific/engineering challenge from Martin’s software contribution. First-person development descriptions are grounded in the local CV and project repositories; they do not assert sole authorship of collaborative research. Published examples are linked for PyMieSim and SuPyMode. Do not turn package capabilities into unsupported performance or experimental-validation claims.

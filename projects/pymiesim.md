@@ -21,3 +21,7 @@ A reproducible simulation needs to describe both the particle and the measuremen
 The upstream repository contains installation instructions, examples, documentation links, and the web GUI link. Use examples from the installed version’s documentation; APIs evolve between releases.
 
 This showcase does not claim a measured speedup, adoption figure, or test-coverage percentage.
+
+## Publication
+
+Martin Poinsinet de Sivry-Houle, Nicolas Godbout, and Caroline Boudoux. [PyMieSim: an open-source library for fast and flexible far-field Mie scattering simulations](https://doi.org/10.1364/OPTCON.473102). *Optics Continuum* **2**(3), 520–534 (2023).

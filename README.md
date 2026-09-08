@@ -2,49 +2,103 @@
 
 # Martin Poinsinet de Sivry-Houle
 
-**Computational physicist · Scientific software developer · Python & C++**
+**Scientific software engineering · Computational optics · Python & C++**
 
-I develop open-source scientific software that connects physical models to experimental questions. My work spans light scattering, optical wave propagation, flow cytometry, and signal analysis—from numerical solvers to tools for inspecting measurements and calibrating instruments.
+I’m a computational physicist building scientific software for optical simulation and measurement. I translate physical models into Python/C++ tools for researchers and engineers, from numerical solvers to signal analysis and instrument calibration.
+
+**My professional focus is scientific software engineering and computational optics.** I’m interested in roles and collaborations where I can develop numerical models, engineer reliable simulation tools, and connect algorithms to experimental measurements—particularly in photonics, biomedical optics, and optical instrumentation.
 
 I hold a **PhD in Engineering Physics from Polytechnique Montréal** and conduct biomedical optics research at **Amsterdam UMC**. My background combines optical modeling, experimental physics, and Python/C++ software engineering.
 
 [**View my CV (PDF)**](assets/Martin-Poinsinet-de-Sivry-Houle-CV.pdf) · [GitHub](https://github.com/MartinPdeS) · [Contact me](mailto:martin.poinsinet.de.sivry@gmail.com)
 
+## Selected publications
+
+### SuPyMode · 2024
+
+[**SuPyMode: an open-source library for design and optimization of fiber optic components**](https://doi.org/10.1364/OPTCON.513562)
+
+**Martin Poinsinet de Sivry-Houle**, Rodrigo Itzamna Becerra Deana, Stéphane Virally, Nicolas Godbout, and Caroline Boudoux. *Optics Continuum* **3**(2), 242–255 (2024).
+
+The numerical framework behind SuPyMode, with a design study of mode-selective photonic lanterns.
+
+[Read the paper](https://doi.org/10.1364/OPTCON.513562) · [Explore the code](https://github.com/MartinPdeS/SuPyMode)
+
+### PyMieSim · 2023
+
+[**PyMieSim: an open-source library for fast and flexible far-field Mie scattering simulations**](https://doi.org/10.1364/OPTCON.473102)
+
+**Martin Poinsinet de Sivry-Houle**, Nicolas Godbout, and Caroline Boudoux. *Optics Continuum* **2**(3), 520–534 (2023).
+
+Connects scattering calculations to detector coupling, with applications to flow cytometry geometry and few-mode optical coherence tomography.
+
+[Read the paper](https://doi.org/10.1364/OPTCON.473102) · [Explore the code](https://github.com/MartinPdeS/PyMieSim)
+
+**Coming soon:** publications on [PackLab](https://github.com/MartinPdeS/PackLab) and [FlowCyPy](https://github.com/MartinPdeS/FlowCyPy).
+
 ## Selected projects
 
 ### [PyMieSim](https://github.com/MartinPdeS/PyMieSim) · Light scattering
 
-How do particle size, material, illumination, and detector geometry affect a scattering measurement? PyMieSim brings these factors into a configurable Lorenz–Mie simulation workflow, supporting spheres, cylinders, and core–shell particles. A Python interface connects the C++ computational backend to individual studies and parameter sweeps.
+**The challenge.** A scattering calculation must connect particle properties to what a detector actually collects. Exploring source, particle, and detector parameters together adds a computational challenge: many optical configurations need to be evaluated consistently.
+
+**My contribution.** I developed a Python interface around a compiled scattering backend, bringing particle solvers, illumination, detector coupling, and parameter sweeps into one configurable workflow. This connects Lorenz–Mie calculations to questions about an optical measurement.
+
+**Evidence.** Our [2023 paper](https://doi.org/10.1364/OPTCON.473102) demonstrates applications to flow cytometry geometry and few-mode optical coherence tomography.
 
 **Python · C++ · pybind11 · Computational optics**
 
+### [SuPyMode](https://github.com/MartinPdeS/SuPyMode) · Fiber component design
+
+**The challenge.** Designing a fiber component requires understanding how its geometry changes the modes it supports and how power transfers between them. A useful design tool must connect these local modal properties to propagation through the component.
+
+**My contribution.** I developed a Python/C++ toolkit combining eigenmode expansion and coupled-mode theory for fiber component analysis. It supports exploration of mode coupling and component geometry, including mode-selective photonic lanterns.
+
+**Evidence.** Our [2024 paper](https://doi.org/10.1364/OPTCON.513562) presents the mathematical framework, validation against analytical solutions, and a photonic-lantern design study.
+
+**Python · C++ · Eigenmode expansion · Coupled-mode theory**
+
 ### [FlowCyPy](https://github.com/MartinPdeS/FlowCyPy) · Flow cytometry simulation
 
-Connects particle populations to simulated detector signals through scattering, fluorescence, and instrument response. Noise sources and detector behavior make it possible to investigate how experimental conditions affect the resulting measurements.
+**The challenge.** A measured cytometry pulse reflects the particle, illumination, fluidics, detector, electronics, and noise together. Studying these stages in isolation makes it difficult to understand which part of the instrument limits detection.
+
+**My contribution.** I developed an end-to-end simulation framework connecting particle events and scattering physics to detector response, electronics, noise, and signal processing. This provides a controlled setting for exploring instrument configurations and testing analysis pipelines with simulated measurements.
+
+**Publication coming soon.**
 
 **Physical modeling · Detector simulation · Signal processing**
 
 ### [LightWave2D](https://github.com/MartinPdeS/LightWave2D) · Electromagnetic wave propagation
 
-A two-dimensional finite-difference time-domain simulator for studying wave propagation, diffraction, and optical components. Configurable waveguides, scatterers, gratings, and resonators connect geometry to field visualizations.
+**The challenge.** Studying propagation and diffraction means translating optical geometries into a numerical field problem, while keeping sources, spatial discretization, and boundary conditions consistent.
+
+**My contribution.** I developed a two-dimensional FDTD simulation tool with configurable sources and optical components, backed by compiled computation. Field visualizations let users inspect how waves interact with waveguides, scatterers, gratings, and resonators.
 
 **Python · C++ · FDTD · Numerical simulation**
 
 ### [PackLab](https://github.com/MartinPdeS/PackLab) · Particle structure and correlations
 
-Studies three-dimensional hard-sphere systems using analytical equilibrium correlations, random sequential adsorption, and Metropolis Monte Carlo sampling. These complementary methods connect particle configurations to pair correlations, structure factors, and structure-aware scattering calculations.
+**The challenge.** Particle arrangements affect correlations and scattering, but equilibrium mixtures and irreversible deposition describe different physical processes. Treating their configurations as interchangeable can lead to misleading interpretations.
+
+**My contribution.** I developed complementary workflows for analytical equilibrium correlations, random sequential adsorption, and Metropolis Monte Carlo sampling. They connect physical mixture inputs to particle structure and structure-aware scattering while keeping the assumptions of each method explicit.
+
+**Publication coming soon.**
 
 **Statistical physics · Monte Carlo · Scientific computing**
 
 ### [RosettaX](https://github.com/MartinPdeS/RosettaX) · Measurement calibration
 
-Brings flow cytometry calibration into an inspectable graphical workflow: FCS loading, histogram analysis, peak identification, fluorescence and scattering fits, and reusable calibration export. The application keeps the optical model and practical measurement workflow together.
+**The challenge.** Calibration becomes difficult to reproduce when data loading, peak selection, reference values, fits, and exported settings are spread across disconnected tools. Users need to inspect both the fitted result and the choices behind it.
+
+**My contribution.** I developed a graphical workflow bringing FCS loading, histogram inspection, peak identification, and fluorescence and scattering calibration together. Reusable profiles and calibration exports carry those choices into subsequent analysis.
 
 **Scientific interfaces · Calibration · Reproducible analysis**
 
 ### [DeepPeak](https://github.com/MartinPdeS/DeepPeak) · Events in noisy signals
 
-Combines classical peak detection with optional neural deconvolution for one-dimensional signals. Synthetic data and evaluation tools support comparisons of event counts, arrival times, amplitudes, and widths, including overlapping pulses and dilution-series measurements.
+**The challenge.** Overlapping pulses and noise can obscure individual events. A cleaner-looking signal alone does not establish better detection; evaluation must also consider event counts, arrival times, amplitudes, and widths.
+
+**My contribution.** I developed tools for synthetic signal generation, classical peak detection, and optional neural deconvolution. Comparison workflows evaluate direct and deconvolved detection on the same traces, including dilution-series analysis.
 
 **Signal analysis · CNNs · Neural deconvolution**
 
@@ -52,7 +106,6 @@ Combines classical peak detection with optional neural deconvolution for one-dim
 
 | Project | Focus |
 | --- | --- |
-| [SuPyMode](https://github.com/MartinPdeS/SuPyMode) | Optical supermode and coupling analysis |
 | [PyOptik](https://github.com/MartinPdeS/PyOptik) | Optical material properties, refractive index, and dispersion |
 | [TypedUnit](https://github.com/MartinPdeS/TypedUnit) | Physical quantities with type validation |
 | [MPSPlots](https://github.com/MartinPdeS/MPSPlots) | Scientific plotting tools |
@@ -79,6 +132,6 @@ I start with the physical assumptions and the quantity we need to understand, th
 
 ## Get in touch
 
-For scientific software development, computational optics, or research collaboration:
+Working on an optical simulation, a scientific computing tool, or a measurement pipeline? I’m interested in scientific software engineering and computational optics roles, as well as research collaborations that bring physical models into practical use.
 
 **[martin.poinsinet.de.sivry@gmail.com](mailto:martin.poinsinet.de.sivry@gmail.com)** · **[GitHub / MartinPdeS](https://github.com/MartinPdeS)**

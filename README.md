@@ -39,16 +39,10 @@ The paper presents the mathematical framework, validation against analytical sol
 **Python · C++ · Eigenmode expansion · Coupled-mode theory**
 
 <p align="center">
-  <a href="assets/projects/supymode-fiber-modes.png"><img src="assets/projects/supymode-fiber-modes.png" alt="Computed fiber mode field profiles at inverse taper ratios of 1.000 and approximately 0.1" width="900"></a>
+  <a href="assets/projects/supymode-mode-propagation.gif"><img src="assets/projects/supymode-mode-propagation.gif" alt="Animated mode propagation through a tapered fiber component, showing the taper profile and evolving transverse fields" width="900"></a>
 </p>
 
-*Computed mode profiles at two taper ratios, showing how the field distributions change as the fiber narrows.*
-
-<p align="center">
-  <a href="assets/projects/supymode-taper.gif"><img src="assets/projects/supymode-taper.gif" alt="Animated visualization of a narrowing fiber taper profile" width="720"></a>
-</p>
-
-*Taper-profile animation from SuPyMode.*
+*Mode propagation through a tapered fiber component, showing the changing taper profile and transverse field distributions.*
 
 ### [FlowCyPy](https://github.com/MartinPdeS/FlowCyPy) · Flow cytometry simulation
 

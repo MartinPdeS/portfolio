@@ -14,14 +14,14 @@
     },
     {
       "project": "SuPyMode",
-      "source": "../SuPyMode/docs/source/gallery/workflow/images/sphx_glr_plot_workflow_01_002.png",
-      "file": "supymode-fiber-modes.png",
-      "alt": "Computed fiber mode field profiles at inverse taper ratios of 1.000 and approximately 0.1",
-      "caption": "Computed mode profiles at two taper ratios, showing how the field distributions change as the fiber narrows.",
+      "source": "https://github.com/MartinPdeS/SuPyMode/blob/master/docs/images/mode_propagation.gif",
+      "file": "supymode-mode-propagation.gif",
+      "alt": "Animated mode propagation through a tapered fiber component, showing the taper profile and evolving transverse fields",
+      "caption": "Mode propagation through a tapered fiber component, showing the changing taper profile and transverse field distributions.",
       "width": 900,
-      "context": "../SuPyMode/docs/source/gallery/workflow/plot_workflow_01.py",
-      "sha256": "377be3a903c3f3cf0f01cb6b2fbdeef93069cee1f3266a059e33a9f8512ac9f7",
-      "bytes": 150037
+      "context": "https://github.com/MartinPdeS/SuPyMode/blob/master/docs/images/mode_propagation.gif",
+      "sha256": "59b8aca845e3cbd08ef1efa99066b4f974cecd24eed7eaa727437020be7f03b4",
+      "bytes": 8366724
     },
     {
       "project": "FlowCyPy",
@@ -77,17 +77,6 @@
       "context": "../DeepPeak/docs/examples/classical_detection_pipeline.py",
       "sha256": "530e1f80955bccd320a9fe4df1f147a39b593d1dec7e27005f370ffdf52a55f4",
       "bytes": 33755
-    },
-    {
-      "project": "SuPyMode",
-      "source": "../SuPyMode/new_gif.gif",
-      "file": "supymode-taper.gif",
-      "alt": "Animated visualization of a narrowing fiber taper profile",
-      "caption": "Taper-profile animation from SuPyMode.",
-      "width": 720,
-      "context": "../SuPyMode/new_gif.gif",
-      "sha256": "9f94b0785ebd0fe4e13f987576a01d8d5d2737be51128ea2469782bb7875184f",
-      "bytes": 61149
     }
   ]
 }

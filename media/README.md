@@ -14,12 +14,12 @@ For future scientific figures, include the project version, generating example, 
 
 ## Project results in the portfolio
 
-The README includes existing documentation figures and a GIF animation, copied unchanged into `assets/projects/`. Click a figure in the README to open the full-size asset.
+The README includes existing documentation figures and GIF animations, copied unchanged into `assets/projects/`. Click a figure in the README to open the full-size asset.
 
 | Project | Visual | Source in the project’s docs folder |
 | --- | --- | --- |
 | PyMieSim | [pymiesim-resonances.png](../assets/projects/pymiesim-resonances.png) | `docs/images/resonances.png` |
-| SuPyMode | [supymode-fiber-modes.png](../assets/projects/supymode-fiber-modes.png) | `docs/source/gallery/workflow/images/sphx_glr_plot_workflow_01_002.png` |
+| SuPyMode | [supymode-mode-propagation.gif](../assets/projects/supymode-mode-propagation.gif) | `docs/images/mode_propagation.gif` (GitHub) |
 | FlowCyPy | [flowcypy-detector-signals.png](../assets/projects/flowcypy-detector-signals.png) | `docs/images/signal_example.png` |
 | LightWave2D | [lightwave2d-lens.gif](../assets/projects/lightwave2d-lens.gif) | `docs/images/lens.gif` |
 | PackLab | [packlab-rsa-packing.png](../assets/projects/packlab-rsa-packing.png) | `docs/images/readme_rsa_packing.png` |
@@ -34,4 +34,4 @@ No MP4, WebM, MOV, or AVI files were found in the neighboring repositories’ do
 
 ### SuPyMode animation
 
-[SuPyMode taper animation](../assets/projects/supymode-taper.gif) is copied unchanged from `../SuPyMode/new_gif.gif`, at the repository root rather than in `docs/`. It complements the static mode-profile figure in the README.
+The [mode-propagation animation](https://github.com/MartinPdeS/SuPyMode/blob/master/docs/images/mode_propagation.gif) was downloaded from the exact GitHub path selected by Martin and copied unchanged. It is the only SuPyMode visual in the README.

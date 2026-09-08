@@ -29,3 +29,7 @@ First name: **Martin**. Last name: **Poinsinet de Sivry-Houle**. Initials: **MPd
 ## Portfolio format
 
 The README is the primary portfolio, intended to present Martin and his work directly on GitHub. Keep local setup, deployment, and maintenance instructions out of it; these belong in MAINTENANCE.md.
+
+## Public CV
+
+At Martin’s explicit request, `../CV/CV.pdf` is included unchanged as `assets/Martin-Poinsinet-de-Sivry-Houle-CV.pdf` and linked from the portfolio. This is a snapshot of the existing PDF, not a rebuild of the LaTeX sources.

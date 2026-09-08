@@ -10,3 +10,5 @@ For scientific software, computational optics, and research collaboration:
 - [GitHub · MartinPdeS](https://github.com/MartinPdeS)
 
 See the [portfolio](../index.html#about) for background and selected work.
+
+[View my CV (PDF)](../assets/Martin-Poinsinet-de-Sivry-Houle-CV.pdf)

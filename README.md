@@ -8,7 +8,7 @@ I develop open-source scientific software that connects physical models to exper
 
 I hold a **PhD in Engineering Physics from Polytechnique Montréal** and conduct biomedical optics research at **Amsterdam UMC**. My background combines optical modeling, experimental physics, and Python/C++ software engineering.
 
-[GitHub](https://github.com/MartinPdeS) · [Contact me](mailto:martin.poinsinet.de.sivry@gmail.com)
+[**View my CV (PDF)**](assets/Martin-Poinsinet-de-Sivry-Houle-CV.pdf) · [GitHub](https://github.com/MartinPdeS) · [Contact me](mailto:martin.poinsinet.de.sivry@gmail.com)
 
 ## Selected projects
 

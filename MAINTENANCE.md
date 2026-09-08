@@ -28,4 +28,4 @@ The workflow stages only `index.html` and `assets/`, then deploys that directory
 - **Content evidence and editorial conventions:** [CONTENT.md](CONTENT.md).
 - **Local validation:** `python3 scripts/check_site.py` and `node --check assets/main.js`.
 
-The wave field and project artwork are schematic illustrations, not numerical results or benchmarks. Add measured results only with a reproducible source. No private CV documents are included in this website.
+The wave field and project artwork are schematic illustrations, not numerical results or benchmarks. Add measured results only with a reproducible source. The public CV is copied from `../CV/CV.pdf` to `assets/Martin-Poinsinet-de-Sivry-Houle-CV.pdf`. Replace that copy when updating the CV; README and contact links use this stable filename.

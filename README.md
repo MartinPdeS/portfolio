@@ -1,257 +1,52 @@
-# Welcome to Martin Poinsinet de Sivry-Houle's Portfolio
+# Martin Poinsinet de Sivry-Houle
 
-<div align="center">
+**Computational physicist · Scientific software developer · Python & C++**
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=300&section=header&text=Computational%20Physicist%20&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Optical%20Simulations%20•%20Scientific%20Computing%20•%20Open%20Source&descAlignY=51&descAlign=62)
+I build open-source tools for computational optics, scientific measurement, and signal analysis. My work connects physical models to practical software: light scattering, wave propagation, flow cytometry simulation, and calibration.
 
-[![Python](https://img.shields.io/badge/Python-Expert-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![C++](https://img.shields.io/badge/C++-Advanced-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://isocpp.org)
-[![Scientific Computing](https://img.shields.io/badge/Scientific_Computing-Expert-FF6B6B?style=for-the-badge&logo=scipy&logoColor=white)](https://scipy.org)
-[![Optics](https://img.shields.io/badge/Computational_Optics-Specialist-4ECDC4?style=for-the-badge&logo=lens&logoColor=white)](#)
+PhD in Engineering Physics, Polytechnique Montréal (2018–2024). Biomedical optics research at Amsterdam UMC.
 
-</div>
+## Selected work
 
-## About Me
+| Project | What it does |
+| --- | --- |
+| [PyMieSim](https://github.com/MartinPdeS/PyMieSim) | Lorenz–Mie scattering with configurable particles, sources, and detectors |
+| [FlowCyPy](https://github.com/MartinPdeS/FlowCyPy) | Flow cytometry simulation, including particle events, noise, and detector response |
+| [LightWave2D](https://github.com/MartinPdeS/LightWave2D) | Two-dimensional FDTD wave propagation and field visualization |
+| [PackLab](https://github.com/MartinPdeS/PackLab) | Hard-sphere structure, analytical correlations, and particle sampling |
+| [RosettaX](https://github.com/MartinPdeS/RosettaX) | Inspectable fluorescence and scattering calibration workflows |
+| [DeepPeak](https://github.com/MartinPdeS/DeepPeak) | Peak detection, neural deconvolution, and time-series evaluation |
 
-I am a **Computational Physicist** specializing in **optical simulations** and **scientific computing**.
-My passion lies in developing cutting-edge tools and algorithms that bridge the gap between theoretical physics and practical applications in photonics and electromagnetic modeling.
+Explore the [project directory](projects/README.md) or the portfolio website in [index.html](index.html).
 
-### Core Expertise
-- **Electromagnetic Simulations**: Advanced modeling of light-matter interactions
-- **Mie Theory**: Deep expertise in scattering theory and implementation
-- **Finite Element Methods**: Complex waveguide and supermode analysis
-- **Finit Difference Time Domain [FDTD]**: Complex geometries.
-- **EigenMode Expansion + Coupled-Mode Theory [EME]**: Solving mode propagation in waveguides.
-- **Scientific Software Development**: High-performance computing solutions
-- **GUI Development**: User-friendly interfaces for complex scientific tools
+## Contact
 
----
+[Email](mailto:martin.poinsinet.de.sivry@gmail.com) · [GitHub](https://github.com/MartinPdeS)
 
-## Featured Projects
+## Run the website locally
 
-<div align="center">
+No installation or build step is needed. Open `index.html` directly, or serve the repository:
 
-### Major Scientific Computing Libraries
-
-</div>
-
-<table>
-<tr>
-<td width="50%">
-
-#### [PyMieSim](https://github.com/MartinPdeS/PyMieSim)
-**Advanced Mie Scattering Simulation Framework**
-
-
-**Key Features:**
-- High-performance C++ backend with Python interface
-- Interactive GUI for parameter exploration
-- Comprehensive measurement capabilities
-- Extensible architecture for custom experiments
-
-</td>
-<td width="50%">
-
-#### [SuPyMode](https://github.com/MartinPdeS/SuPyMode)
-**Supermode Analysis for Optical Waveguides**
-
-
-**Key Features:**
-- Finite difference method
-- Eigenmode Expansion method
-- Coupled-mode Theory
-- Adiabatic coupling analysis
-- Complex geometry support
-- Comprehensive visualization tools
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%">
-
-#### [PyOptik](https://github.com/MartinPdeS/PyOptik)
-**Comprehensive Optical Materials Database**
-
-
-**Key Features:**
-- Local and remote refractive index database
-- Extensive material database
-- Dispersion & GVD computation
-- Built-in visualization capabilities
-
-</td>
-<td width="50%">
-
-#### [LightWave2D](https://github.com/MartinPdeS/LightWave2D)
-**2D Wave Propagation Simulator**
-
-
-**Key Features:**
-- FDTD and beam propagation methods
-- Complex structure modeling
-- GPU acceleration support
-- C++ multi-process backend
-
-</td>
-</tr>
-</table>
-
----
-
-## Technical Skills & Tools
-
-<div align="center">
-
-### Programming Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-
-### Scientific Computing
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=flat-square&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Eigen](https://img.shields.io/badge/Eigen-FF6B6B?style=flat-square&logo=cpp&logoColor=white)
-
-### Development Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
-![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
-![Sphinx](https://img.shields.io/badge/Sphinx-000000?style=flat-square&logo=sphinx&logoColor=white)
-
-### Specialized Libraries
-![PyBind11](https://img.shields.io/badge/PyBind11-4285F4?style=flat-square&logo=python&logoColor=white)
-![OpenMP](https://img.shields.io/badge/OpenMP-4479A1?style=flat-square&logo=openmp&logoColor=white)
-![MPI](https://img.shields.io/badge/MPI-FF6B35?style=flat-square&logo=message-passing-interface&logoColor=white)
-![Dash](https://img.shields.io/badge/Dash-00D8FF?style=flat-square&logo=plotly&logoColor=white)
-
-</div>
-
----
-
-## GitHub Statistics
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%">
-
-![Martin's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MartinPdeS&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true)
-
-</td>
-<td width="50%">
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MartinPdeS&layout=compact&theme=tokyonight&hide_border=true&langs_count=8)
-
-</td>
-</tr>
-</table>
-
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=MartinPdeS&theme=tokyo-night&hide_border=true&area=true)
-
-</div>
-
----
-
-## Research & Publications
-
-### Academic Contributions
-- **Computational Electromagnetics**: Advanced algorithms for scattering simulations
-- **Optical Waveguide Theory**: Supermode analysis and coupling dynamics
-- **High-Performance Computing**: Parallel algorithms for electromagnetic modeling
-- **Scientific Software Engineering**: Best practices for research software development
-
-### Impact Metrics
-- **Open Source Projects**: 15+ actively maintained repositories
-- **Community Reach**: Users across scientific computing tools
-- **Documentation**: Comprehensive tutorials, documentation and API references
-- **Code Quality**: 80%+ test coverage across major projects
-
----
-
-## What Makes My Work Special
-
-<div align="center">
-
-<table>
-<tr>
-<td width="33%" align="center">
-
-### Scientific Rigor
-**Theory-Driven Development**
-- Deep physics understanding
-- Mathematically sound algorithms
-- Peer-reviewed methodologies
-- Reproducible research practices
-
-</td>
-<td width="33%" align="center">
-
-### ⚡ Performance Focus
-**High-Performance Computing**
-- C++ optimized backends
-- Parallel algorithm design
-- Memory-efficient implementations
-- GPU acceleration where beneficial
-
-</td>
-<td width="33%" align="center">
-
-### User Experience
-**Accessible Complex Science**
-- Intuitive Python APIs
-- Interactive GUI interfaces
-- Comprehensive documentation
-- Educational examples
-
-</td>
-</tr>
-</table>
-
-</div>
-
----
-
-## 📫 Let's Connect!
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-MartinPdeS-181717?style=for-the-badge&logo=github)](https://github.com/MartinPdeS)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@domain.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/martin-poinsinet-de-sivry-houle-603b3b98/)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-Follow-00CCBB?style=for-the-badge&logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Martin-Sivry-Houle)
-
-</div>
-
----
-
-<div align="center">
-
-### "Bridging the gap between theoretical physics and practical applications through elegant code"
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=100&section=footer)
-
-</div>
-
-## Repository Structure
-
-```
-portfolio/
-├── projects/          # Detailed project showcases
-├── research/          # Academic papers and presentations
-├── tutorials/         # Educational content and guides
-├── media/            # Screenshots, videos, demos
-└── contact/          # Contact information and CV
+```sh
+python3 -m http.server 8000
 ```
 
----
+Then visit `http://localhost:8000`. The website uses local assets and system fonts, with no analytics or external runtime dependencies. All content and native project disclosures work without JavaScript; JavaScript adds filtering and an illustrative wavelength control.
 
-**If you find my work interesting, please consider giving my repositories a star!**
+## Publish on GitHub Pages
+
+1. In the repository’s **Settings → Pages**, select **GitHub Actions** as the source.
+2. Push the changes to `main` or `master`, or run the **Deploy portfolio** workflow manually from the default branch.
+3. GitHub reports the published URL in the workflow’s deployment output (normally `https://martinpdes.github.io/portfolio/`).
+
+The workflow stages only `index.html` and `assets/`, then deploys that directory. The site uses relative asset paths, so it also works under a repository subpath or a custom domain. This setup does not itself enable Pages or publish local changes.
+
+## Maintain the portfolio
+
+- **Content and case studies:** `index.html`.
+- **Design and responsive layouts:** `assets/style.css`.
+- **Filtering and wave illustration:** `assets/main.js`.
+- **Content evidence and editorial conventions:** [CONTENT.md](CONTENT.md).
+- **Local validation:** `python3 scripts/check_site.py` and `node --check assets/main.js`.
+
+The wave field and project artwork are schematic illustrations, not numerical results or benchmarks. Add measured results only with a reproducible source. No private CV documents are included in this website.

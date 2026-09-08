@@ -1,46 +1,22 @@
-# Featured Projects
+# Project directory
 
-This directory contains detailed showcases of my major open-source contributions to computational physics and scientific computing.
+Read the six expandable case studies in the [portfolio website](../index.html#work).
 
-## Core Scientific Libraries
+## Optics and simulation
 
-### [PyMieSim](./pymiesim.md) - Advanced Mie Scattering Framework
-High-performance electromagnetic scattering simulation with intuitive Python API and C++ backend.
+- [PyMieSim](pymiesim.md): particle scattering, illumination, and detector models.
+- [LightWave2D](https://github.com/MartinPdeS/LightWave2D): two-dimensional FDTD simulations.
+- [PackLab](https://github.com/MartinPdeS/PackLab): structure in hard-sphere systems.
+- [SuPyMode](https://github.com/MartinPdeS/SuPyMode): optical supermode and coupling analysis.
+- [PyOptik](https://github.com/MartinPdeS/PyOptik): optical material properties and dispersion.
 
-### [SuPyMode](./supymode.md) - Supermode Waveguide Analysis
-Sophisticated finite element eigenmode solver for optical waveguide analysis and coupling dynamics.
+## Measurement and analysis
 
-### [PyOptik](./pyoptik.md) - Optical Materials Database
-Comprehensive refractive index database with temperature dependencies and advanced interpolation.
+- [FlowCyPy](https://github.com/MartinPdeS/FlowCyPy): flow cytometry experiment simulation.
+- [RosettaX](https://github.com/MartinPdeS/RosettaX): fluorescence and scattering calibration.
+- [DeepPeak](https://github.com/MartinPdeS/DeepPeak): classical and neural approaches to peak analysis.
 
-### [LightWave2D](./lightwave2d.md) - 2D Wave Propagation
-Advanced electromagnetic wave simulation using FDTD and beam propagation methods.
+## Scientific software foundations
 
-### [PyFinitDiff](./pyfinitdiff.md) - Finite Difference Tools
-Flexible finite difference operator generation for scientific computing applications.
-
-### [FlowCyPy](./flowcypy.md) - Flow Cytometry Analysis
-Comprehensive toolkit for flow cytometry data processing and analysis.
-
-## Specialized Tools
-
-### [DeepPeak](./deeppeak.md) - AI Peak Detection
-Machine learning-based peak detection and analysis for scientific datasets.
-
-### [FiberFusing](./fiberfusing.md) - Fiber Coupling Simulator
-Specialized tool for modeling optical fiber fusion and coupling processes.
-
-### [TradeTide](./tradetide.md) - Financial Analysis
-Quantitative trading and financial analysis framework.
-
-## Visualization & GUI Tools
-
-### [MPSPlots](./mpsplots.md) - Scientific Plotting
-Enhanced matplotlib wrapper for publication-quality scientific figures.
-
-### [Interactive GUIs](./guis.md) - User Interfaces
-Collection of interactive interfaces for complex scientific tools.
-
----
-
-Each project represents a significant contribution to the scientific computing ecosystem, combining theoretical rigor with practical usability.
+- [TypedUnit](https://github.com/MartinPdeS/TypedUnit): physical quantities with type validation.
+- [MPSPlots](https://github.com/MartinPdeS/MPSPlots): scientific plotting tools.

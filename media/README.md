@@ -11,3 +11,23 @@ All artwork is stored locally in `assets/`:
 The canvas is drawn by `assets/main.js`. All these visuals are original schematic illustrations, not numerical outputs from the featured packages. The wavelength control uses arbitrary units.
 
 For future scientific figures, include the project version, generating example, and relevant physical parameters. Optimize files and provide descriptive alternative text.
+
+## Project results in the portfolio
+
+The README includes existing documentation figures and a GIF animation, copied unchanged into `assets/projects/`. Click a figure in the README to open the full-size asset.
+
+| Project | Visual | Source in the project’s docs folder |
+| --- | --- | --- |
+| PyMieSim | [pymiesim-resonances.png](../assets/projects/pymiesim-resonances.png) | `docs/images/resonances.png` |
+| SuPyMode | [supymode-fiber-modes.png](../assets/projects/supymode-fiber-modes.png) | `docs/source/gallery/workflow/images/sphx_glr_plot_workflow_01_002.png` |
+| FlowCyPy | [flowcypy-detector-signals.png](../assets/projects/flowcypy-detector-signals.png) | `docs/images/signal_example.png` |
+| LightWave2D | [lightwave2d-lens.gif](../assets/projects/lightwave2d-lens.gif) | `docs/images/lens.gif` |
+| PackLab | [packlab-rsa-packing.png](../assets/projects/packlab-rsa-packing.png) | `docs/images/readme_rsa_packing.png` |
+| RosettaX | [rosettax-fluorescence-calibration.png](../assets/projects/rosettax-fluorescence-calibration.png) | `docs/source/gallery/images/sphx_glr_fluorescence_calibration_001.png` |
+| DeepPeak | [deeppeak-detection.png](../assets/projects/deeppeak-detection.png) | `docs/source/gallery/images/sphx_glr_classical_detection_pipeline_001.png` |
+
+The [asset manifest](project-assets.json) records the exact source paths, context files, byte sizes, and SHA-256 checksums. These are historical documentation outputs, not newly generated results or a claim that the current source reproduces them byte for byte.
+
+RosettaX’s calibration uses illustrative values. DeepPeak’s trace and FlowCyPy’s detector signals are synthetic. PackLab’s image is a slice visualization of a three-dimensional packing. The original figures retain their labels, units, and aspect ratios.
+
+No MP4, WebM, MOV, or AVI files were found in the neighboring repositories’ docs folders during this review; LightWave2D supplied the GIF animations.

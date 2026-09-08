@@ -50,3 +50,7 @@ Publication titles and coauthor spellings follow the bibliographic records. Mart
 Positioning emphasizes scientific software engineering and computational optics, grounded in the CV’s scientific software, algorithm engineering, photonics, and biomedical optics experience. The portfolio expresses interest in relevant roles and collaborations without claiming an employment transition or availability date.
 
 Project showcases distinguish the scientific/engineering challenge from Martin’s software contribution. First-person development descriptions are grounded in the local CV and project repositories; they do not assert sole authorship of collaborative research. Published examples are linked for PyMieSim and SuPyMode. Do not turn package capabilities into unsupported performance or experimental-validation claims.
+
+## Project media
+
+README project figures are now actual documentation assets, separate from the schematic banner and HTML artwork. Their sources and context are recorded in [media/project-assets.json](media/project-assets.json). Copies preserve the original bytes. Captions distinguish simulation output and illustrative calibration data from experimental measurements.

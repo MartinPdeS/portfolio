@@ -1,40 +1,10 @@
 ![Martin Poinsinet de Sivry-Houle — Computational physicist, scientific software developer](assets/banner.svg)
 
-# Martin Poinsinet de Sivry-Houle
+I build tools that help researchers and engineers understand optical systems—from numerical simulation to signal analysis and instrument calibration.
 
-**Scientific software engineering · Computational optics · Python & C++**
-
-I’m a computational physicist building scientific software for optical simulation and measurement. I translate physical models into Python/C++ tools for researchers and engineers, from numerical solvers to signal analysis and instrument calibration.
-
-**My professional focus is scientific software engineering and computational optics.** I’m interested in roles and collaborations where I can develop numerical models, engineer reliable simulation tools, and connect algorithms to experimental measurements—particularly in photonics, biomedical optics, and optical instrumentation.
-
-I hold a **PhD in Engineering Physics from Polytechnique Montréal** and conduct biomedical optics research at **Amsterdam UMC**. My background combines optical modeling, experimental physics, and Python/C++ software engineering.
+I’m interested in roles and collaborations that combine numerical modeling, reliable software, and experimental measurement, particularly in photonics, biomedical optics, and optical instrumentation.
 
 [**View my CV (PDF)**](assets/Martin-Poinsinet-de-Sivry-Houle-CV.pdf) · [GitHub](https://github.com/MartinPdeS) · [Contact me](mailto:martin.poinsinet.de.sivry@gmail.com)
-
-## Selected publications
-
-### SuPyMode · 2024
-
-[**SuPyMode: an open-source library for design and optimization of fiber optic components**](https://doi.org/10.1364/OPTCON.513562)
-
-**Martin Poinsinet de Sivry-Houle**, Rodrigo Itzamna Becerra Deana, Stéphane Virally, Nicolas Godbout, and Caroline Boudoux. *Optics Continuum* **3**(2), 242–255 (2024).
-
-The numerical framework behind SuPyMode, with a design study of mode-selective photonic lanterns.
-
-[Read the paper](https://doi.org/10.1364/OPTCON.513562) · [Explore the code](https://github.com/MartinPdeS/SuPyMode)
-
-### PyMieSim · 2023
-
-[**PyMieSim: an open-source library for fast and flexible far-field Mie scattering simulations**](https://doi.org/10.1364/OPTCON.473102)
-
-**Martin Poinsinet de Sivry-Houle**, Nicolas Godbout, and Caroline Boudoux. *Optics Continuum* **2**(3), 520–534 (2023).
-
-Connects scattering calculations to detector coupling, with applications to flow cytometry geometry and few-mode optical coherence tomography.
-
-[Read the paper](https://doi.org/10.1364/OPTCON.473102) · [Explore the code](https://github.com/MartinPdeS/PyMieSim)
-
-**Coming soon:** publications on [PackLab](https://github.com/MartinPdeS/PackLab) and [FlowCyPy](https://github.com/MartinPdeS/FlowCyPy).
 
 ## Selected projects
 
@@ -44,7 +14,9 @@ Connects scattering calculations to detector coupling, with applications to flow
 
 **My contribution.** I developed a Python interface around a compiled scattering backend, bringing particle solvers, illumination, detector coupling, and parameter sweeps into one configurable workflow. This connects Lorenz–Mie calculations to questions about an optical measurement.
 
-**Evidence.** Our [2023 paper](https://doi.org/10.1364/OPTCON.473102) demonstrates applications to flow cytometry geometry and few-mode optical coherence tomography.
+**Publication.** [PyMieSim: an open-source library for fast and flexible far-field Mie scattering simulations](https://doi.org/10.1364/OPTCON.473102). Martin Poinsinet de Sivry-Houle, Nicolas Godbout, and Caroline Boudoux. *Optics Continuum* **2**(3), 520–534 (2023).
+
+The paper demonstrates applications to flow cytometry geometry and few-mode optical coherence tomography.
 
 **Python · C++ · pybind11 · Computational optics**
 
@@ -54,7 +26,9 @@ Connects scattering calculations to detector coupling, with applications to flow
 
 **My contribution.** I developed a Python/C++ toolkit combining eigenmode expansion and coupled-mode theory for fiber component analysis. It supports exploration of mode coupling and component geometry, including mode-selective photonic lanterns.
 
-**Evidence.** Our [2024 paper](https://doi.org/10.1364/OPTCON.513562) presents the mathematical framework, validation against analytical solutions, and a photonic-lantern design study.
+**Publication.** [SuPyMode: an open-source library for design and optimization of fiber optic components](https://doi.org/10.1364/OPTCON.513562). Martin Poinsinet de Sivry-Houle, Rodrigo Itzamna Becerra Deana, Stéphane Virally, Nicolas Godbout, and Caroline Boudoux. *Optics Continuum* **3**(2), 242–255 (2024).
+
+The paper presents the mathematical framework, validation against analytical solutions, and a photonic-lantern design study.
 
 **Python · C++ · Eigenmode expansion · Coupled-mode theory**
 

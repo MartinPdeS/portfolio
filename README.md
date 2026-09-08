@@ -1,3 +1,5 @@
+![Martin Poinsinet de Sivry-Houle — Computational physicist, scientific software developer](assets/banner.svg)
+
 # Martin Poinsinet de Sivry-Houle
 
 **Computational physicist · Scientific software developer · Python & C++**

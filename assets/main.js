@@ -67,6 +67,8 @@ function drawField() {
   context.fillText('SCATTERED FIELD', width - 100, height - 18);
 }
 if (context) {
+  canvas.hidden = false;
+  document.querySelector('.field-fallback').hidden = true;
   document.querySelector('.wave-controls').hidden = false;
   wavelength.addEventListener('input', () => {
     document.querySelector('#wavelength-value').value = `${wavelength.value} a.u.`;

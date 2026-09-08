@@ -21,3 +21,7 @@ The portfolio was curated from neighboring project repositories and the local CV
 - Add publications only after verifying title, authors, venue, and persistent identifier.
 
 The old placeholder publications, impact statistics, example APIs, document links, and community links were removed because their claims or targets could not be substantiated from the reviewed local material. The unused statistics script no longer modifies portfolio prose or estimates users from stars.
+
+## Name and initials
+
+First name: **Martin**. Last name: **Poinsinet de Sivry-Houle**. Initials: **MPdSH**, preserving this capitalization. Keep the complete last name together when splitting the name across display lines.

@@ -1,5 +1,5 @@
 {
-  "description": "Existing documentation media copied unchanged. Source paths and context refer to the local repositories at selection time; no simulation was rerun.",
+  "description": "Existing repository media copied unchanged. Source paths and context refer to the local repositories at selection time; no simulation was rerun.",
   "assets": [
     {
       "project": "PyMieSim",
@@ -77,6 +77,17 @@
       "context": "../DeepPeak/docs/examples/classical_detection_pipeline.py",
       "sha256": "530e1f80955bccd320a9fe4df1f147a39b593d1dec7e27005f370ffdf52a55f4",
       "bytes": 33755
+    },
+    {
+      "project": "SuPyMode",
+      "source": "../SuPyMode/new_gif.gif",
+      "file": "supymode-taper.gif",
+      "alt": "Animated visualization of a narrowing fiber taper profile",
+      "caption": "Taper-profile animation from SuPyMode.",
+      "width": 720,
+      "context": "../SuPyMode/new_gif.gif",
+      "sha256": "9f94b0785ebd0fe4e13f987576a01d8d5d2737be51128ea2469782bb7875184f",
+      "bytes": 61149
     }
   ]
 }

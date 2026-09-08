@@ -31,3 +31,7 @@ The [asset manifest](project-assets.json) records the exact source paths, contex
 RosettaX’s calibration uses illustrative values. DeepPeak’s trace and FlowCyPy’s detector signals are synthetic. PackLab’s image is a slice visualization of a three-dimensional packing. The original figures retain their labels, units, and aspect ratios.
 
 No MP4, WebM, MOV, or AVI files were found in the neighboring repositories’ docs folders during this review; LightWave2D supplied the GIF animations.
+
+### SuPyMode animation
+
+[SuPyMode taper animation](../assets/projects/supymode-taper.gif) is copied unchanged from `../SuPyMode/new_gif.gif`, at the repository root rather than in `docs/`. It complements the static mode-profile figure in the README.

@@ -44,6 +44,12 @@ The paper presents the mathematical framework, validation against analytical sol
 
 *Computed mode profiles at two taper ratios, showing how the field distributions change as the fiber narrows.*
 
+<p align="center">
+  <a href="assets/projects/supymode-taper.gif"><img src="assets/projects/supymode-taper.gif" alt="Animated visualization of a narrowing fiber taper profile" width="720"></a>
+</p>
+
+*Taper-profile animation from SuPyMode.*
+
 ### [FlowCyPy](https://github.com/MartinPdeS/FlowCyPy) · Flow cytometry simulation
 
 **The challenge.** A measured cytometry pulse reflects the particle, illumination, fluidics, detector, electronics, and noise together. Studying these stages in isolation makes it difficult to understand which part of the instrument limits detection.

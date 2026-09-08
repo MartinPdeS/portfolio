@@ -25,3 +25,7 @@ The old placeholder publications, impact statistics, example APIs, document link
 ## Name and initials
 
 First name: **Martin**. Last name: **Poinsinet de Sivry-Houle**. Initials: **MPdSH**, preserving this capitalization. Keep the complete last name together when splitting the name across display lines.
+
+## Portfolio format
+
+The README is the primary portfolio, intended to present Martin and his work directly on GitHub. Keep local setup, deployment, and maintenance instructions out of it; these belong in MAINTENANCE.md.
